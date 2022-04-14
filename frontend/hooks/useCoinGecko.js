@@ -23,7 +23,7 @@ const useCoinGecko = initCoinGecko => {
       });
     };
   
-  return ([coinGecko, getCoinGecko]);
+  return [coinGecko, getCoinGecko];
 
 }
 
