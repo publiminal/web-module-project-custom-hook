@@ -1,6 +1,6 @@
 /*  export used services calling external data */
 
-import axios from "axios"
+import axios from "axios";
 
 /* Call external data calling Coin Gecko API 
 */
@@ -12,8 +12,8 @@ export const getCoinGeckoApiCall = () => {
             .then(res => {
                 // console.log('coinGecko API CALL', res.data)
                 return res.data;
-            })
+            });
         //   .then(res => setCoinData(res.data))
         //   .catch(err => console.log(err));
     // }, []);
-}
+};
